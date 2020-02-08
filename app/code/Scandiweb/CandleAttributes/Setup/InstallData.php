@@ -164,7 +164,7 @@ class InstallData implements InstallDataInterface
         $eavSetup->removeAttribute(Product::ENTITY, 'scent');
 
         $eavSetup->addAttribute(
-            Product::ENTITY, 'size', [
+            Product::ENTITY, 'scent', [
                 'type' => 'int',
                 'backend' => 'Magento\Eav\Model\Entity\Attribute\Backend\ArrayBackend',
                 'label' => 'Scent',
