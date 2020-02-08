@@ -62,6 +62,7 @@ atlassian*
 
 /var/*
 !/var/.htaccess
+!/var/import
 /vendor/*
 !/vendor/.htaccess
 /generated/*
